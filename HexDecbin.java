@@ -10,16 +10,15 @@ public class HexDecbin {
 	String name = "";
 	String hex = "";
 	String msg = "";
-	int num;
-	
+	int num;	
 	
 	public HexDecbin() {
 		msg = "Welcome to my Hexidecimal, decimal, or Binary conversion program";
 		JOptionPane.showMessageDialog(null, msg);
 		msg = "What is your name";
-		JOptionPane.showInputDialog(msg);
-		name = kbd.nextLine();
-		System.out.println("Very nice to meet you"+ name + " let's begin: \n");
+		name = JOptionPane.showInputDialog(msg);
+		msg="Very nice to meet you"+ name + " let's begin: \n";
+		JOptionPane.showMessageDialog(null, msg);
 	}
 	public void setHexNumber() {
 		

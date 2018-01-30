@@ -6,9 +6,7 @@ public class BinPower {
 	//Fixed scanner bug for float inputs
 	Scanner input = new Scanner(System.in);
 	
-	
-	
-	
+		
 	public BinPower() {
 		
 		
@@ -24,8 +22,8 @@ public class BinPower {
 		//ans = 2^exp;-
 		//does not work
 		msg ="Hello human. What shall I call you?";
-		JOptionPane.showInputDialog(msg);
-		name = input.nextLine();
+		
+		name = JOptionPane.showInputDialog(msg);
 		msg = "Thanks for using my glorious program " + name;
 		JOptionPane.showMessageDialog(null, msg);
 		System.out.println("Please enter a Base number");

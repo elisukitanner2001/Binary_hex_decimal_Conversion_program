@@ -1,7 +1,6 @@
 public class Runner {
 
 	public static void main(String[] args) {
-
 		
 		/*** Testing integer division -- truncates! Does NOT round off! ***/
 		/*** % modulus returns the remainder of a division ***/
